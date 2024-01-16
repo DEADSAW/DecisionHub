@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Loan Approval</title>
+</head>
+<body>
+
+<div class="container">
+    <button id="visualizationButton" onclick="openVisualization()">Visualization</button>
+    <button id="backButton" onclick="goBack()">Back to Home</button>
+    <h1>Loan Approval</h1>
+
+    <div class="rule-container">
+        <!-- Rule 1: Type of Loan -->
+        <div class="rule">
+            <label>Type of Loan:</label>
+            <select id="loanType">
+                <option value="personal">Personal</option>
+                <option value="home">Home</option>
+                <option value="land">Land</option>
+                <option value="student">Student</option>
+                <option value="auto">Auto</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+
+        <!-- Rule 2: Term in Months -->
+        <div class="rule">
+            <label>Term in Months:</label>
+            <select id="loanTerm">
+                <!-- Add options for term in months -->
+            </select>
+        </div>
+
+        <!-- Rule 3: Age Range -->
+        <div class="rule">
+            <label>Age between:</label>
+            <input type="number" id="ageMin" placeholder="Min">
+            and
+            <input type="number" id="ageMax" placeholder="Max">
+        </div>
+
+        <!-- Rule 4: Credit Score Range -->
+        <div class="rule">
+            <label>Credit Score between:</label>
+            <input type="number" id="creditScoreMin" placeholder="Min">
+            and
+            <input type="number" id="creditScoreMax" placeholder="Max">
+        </div>
+
+        <!-- Rule 5: Bank Balance Range -->
+        <div class="rule">
+            <label>Bank Balance between:</label>
+            <input type="number" id="bankBalanceMin" placeholder="Min">
+            and
+            <input type="number" id="bankBalanceMax" placeholder="Max">
+        </div>
+
+        <!-- Rule 6: Employment Status -->
+        <div class="rule">
+            <label>Employment Status:</label>
+            <select id="employmentStatus">
+                <option value="employed">Employed</option>
+                <option value="unemployed">Unemployed</option>
+                <option value="selfEmployed">Self-Employed</option>
+            </select>
+        </div>
+
+        <!-- Rule 7: Criminal Record -->
+        <div class="rule">
+            <label>Any Criminal Record:</label>
+            <select id="criminalRecord">
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+        </div>
+
+        <!-- Rule 8: Health Issues -->
+        <div class="rule">
+            <label>Any Health Issues:</label>
+            <select id="healthIssues">
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+        </div>
+
+        <!-- Rule 9: Collateral -->
+        <div class="rule">
+            <label>Collateral [if any]:</label>
+            <select id="collateral">
+                <option value="investments">Investments</option>
+                <option value="realEstate">Real Estate</option>
+                <option value="gold">Gold</option>
+                <option value="cash">Cash</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+
+        <!-- Decision Dropdown -->
+        <div class="rule">
+            <label>Decision:</label>
+            <select id="approvalDecision">
+                <option value="approve">Approve</option>
+                <option value="disapprove">Disapprove</option>
+            </select>
+        </div>
+
+        <button onclick="saveRule()">Save Rule</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
