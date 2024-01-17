@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles_1_3_select.css">
+    <title>Select Existing Strategy</title>
+</head>
+<body>
+
+<div class="container">
+    <button id="backButton" onclick="goBack()">Back</button>
+    <h1>Select Existing Strategy</h1>
+
+    <!-- Dropdown for selecting existing strategy -->
+    <div class="dropdown">
+        <label>Select strategy:</label>
+        <select id="existingStrategyDropdown">
+            <option value="strategy_1">Strategy 1</option>
+            <option value="strategy_2">Strategy 2</option>
+          <option
+value="strategy_2">Strategy 3</option>
+          <option
+value="strategy_2">Strategy 4</option>
+            <!-- Add more options as needed -->
+        </select>
+    </div>
+
+    <!-- Input box for entering title -->
+    <div class="input-container">
+        <label>ENTER INPUT:</label>
+        
+    </div>
+
+    <!-- Input boxes for age, annual income, term, credit, and loan amount -->
+    <div class="input-container">
+        <label>Age:</label>
+        <input type="number" id="inputAge" placeholder="Age">
+    </div>
+
+    <div class="input-container">
+        <label>Annual Income:</label>
+        <input type="number" id="inputAnnualIncome" placeholder="Annual Income">
+    </div>
+
+    <div class="input-container">
+        <label>Term:</label>
+        <input type="number" id="inputTerm" placeholder="Term">
+    </div>
+
+    <div class="input-container">
+        <label>Credit Score:</label>
+        <input type="number" id="inputCredit" placeholder="Credit">
+    </div>
+
+    <div class="input-container">
+        <label>Loan Amount:</label>
+        <input type="number" id="inputLoanAmount" placeholder="Loan Amount">
+    </div>
+
+    <!-- Debug button at the right corner -->
+    <button id="debugButton" onclick="debug()">Debug</button>
+</div>
+
+<script src="script_1_3_select.js"></script>
+</body>
+</html>
