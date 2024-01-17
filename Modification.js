@@ -1,14 +1,14 @@
 function goBack() {
-    // You can implement redirection logic to navigate back to the homepage
+    // Text for the back button.
     console.log("Back to Home");
 }
 
 function goToTesting() {
-    // You can implement logic to navigate to the testing page
+    // Text for the testing button
     console.log("Go to Testing");
 }
 
 function saveChanges() {
-    // You can implement logic to save the modified rule
+    // Text for the save changes button.
     console.log("Changes saved");
 }
