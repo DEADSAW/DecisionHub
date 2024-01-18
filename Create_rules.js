@@ -12,8 +12,11 @@ document.addEventListener('DOMContentLoaded', function() {
         attributeDiv.innerHTML = `
             Attribute ${attributeCount}:
             <select id="attributeCount">
+                    <option value="Annual Income">Annual Income</option>
                     <option value="Married">Married</option>
                     <option value="Dependents">Dependents</option>
+                    <option value="Age">Age</option>
+                    <option value="Credit score">Credit score</option>
                     <option value="Education">Education</option>
                     <option value="Self_Employed">Self_Employed</option>
                     <option value="ApplicantIncome">ApplicantIncome</option>
