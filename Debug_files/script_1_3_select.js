@@ -1,6 +1,7 @@
 function goBack() {
-    // Redirect to 1_2_home page
-    window.location.href = 'index_1_2_home.html'; // Adjust the redirection URL as needed
+    // You can implement redirection logic to navigate back to the previous page
+    console.log("Back to 1_3_home");
+    window.location.href = 'index_1_3_home.html'; // Adjust the redirection URL as needed
 }
 
 function debug() {
