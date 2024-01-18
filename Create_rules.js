@@ -50,7 +50,8 @@ document.addEventListener('DOMContentLoaded', function() {
                     <option value="<=">less than or equal to (<=)</option>
 
                     </select>
-                <input type="text" id="value-${attributeId}-${conditionCount}">
+             <input type="text" id="condtion-${attributeId}-${conditionCount}" placeholder="Condition Value">
+             <input type="text" id="action-${attributeId}-${conditionCount}" placeholder="what action it Performs">
             `;
             target.parentElement.appendChild(conditionDiv);
         }
