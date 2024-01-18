@@ -2,12 +2,12 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
-    background: linear-gradient(to right, #003030, #006666);
+    background: linear-gradient(to right, #003030, #f7eb4b);
     color: #fff;
     text-align: center;
 }
 
-.container {
+.container { 
     display: flex;
     flex-direction: column;
     align-items: center;
