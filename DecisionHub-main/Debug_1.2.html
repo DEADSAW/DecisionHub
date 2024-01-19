@@ -1,3 +1,5 @@
+<!-- Debug_1.2.html -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -22,10 +24,14 @@
             <input type="text" id="uploadDatabaseLink" placeholder="Enter database link">
             <button id="submitAutomatedTesting">Submit</button>
         </details>
-
-        
     </div>
 
     <script src="Debug_1.2.js"></script>
+    <script>
+        document.getElementById('backButton').addEventListener('click', function() {
+            // Go back to Debug_home.html when the back button is clicked
+            window.location.href = 'Debug_home.html';
+        });
+    </script>
 </body>
 </html>
