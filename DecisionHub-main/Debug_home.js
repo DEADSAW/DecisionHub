@@ -6,6 +6,7 @@ document.getElementById('backButton').addEventListener('click', function() {
 document.getElementById('customDatabaseButton').addEventListener('click', function() {
     // Add functionality for custom database button
     console.log('Custom Database button clicked!');
+    customd(); // Redirect to Debug_1.2.html
 });
 
 document.getElementById('inputDataButton').addEventListener('click', function() {
@@ -17,6 +18,7 @@ document.getElementById('proceedButton').addEventListener('click', function() {
     // Add functionality for proceed button
     console.log('Proceed to Deployment Stage button clicked!');
 });
+
 function inputd() {
     // Redirect to 1_3_select page
     window.location.href = 'Debug_1.1.html'; // Adjust the redirection URL as needed
