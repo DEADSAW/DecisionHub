@@ -77,7 +77,12 @@ document.addEventListener('DOMContentLoaded', function () {
                     Nested Condition ${nestedConditionCount}:
                     <select id="nested-operator-${attributeCount}-${conditionCount}-${nestedConditionCount}">
                         <option value="&&">and (&&)</option>
-                        <option value="||">or (||)</option>
+
+                        <option value="OR">or (||)</option>
+                        <option value="NOT">or (!)</option>
+                        <option value="IN">or (in)</option>
+                        <option value="NOT IN">or (not in)</option>
+
                     </select>
                     <select id="nested-attribute-${attributeCount}-${conditionCount}-${nestedConditionCount}">
                         <option value="Annual Income">Annual Income</option>

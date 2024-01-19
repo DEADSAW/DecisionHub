@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(45deg, #06aca1, #838479, #4f0ba9);
+    color: #fff;
+    text-align: center;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  h1 {
+    margin-top: 20px;
+  }
+  
+  button {
+    background-color: #f3fb83;
+    color: #060502;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out; /* Added transition for smooth effect */
+  }
+  
+  #loginButton {
+    position: absolute;
+    top: 40px;
+    right: 50px;
+  }
+  
+  .button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .login-popup {
+    display: none;
+    position: fixed;
+    top: 30;
+    left: 40;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .login-popup button {
+    background-color: #008080;
+    color: #fff;
+    padding: 20px 20px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out; /* Added transition for smooth effect */
+  }
+background: linear-gradient(45deg, #06aca1, #838479, #4f0ba9);
+  
+  /* Added hover styles for both button types */
+  button:hover,
+  .login-popup button:hover {
+    transform: scale(1.4); /* Enlarge on hover */
+  }
+  

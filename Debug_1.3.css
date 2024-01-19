@@ -2,12 +2,12 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
-    background: linear-gradient(to right, #003030, #f7eb4b);
     color: #fff;
     text-align: center;
 }
 
-.container { 
+.container {
+  background: linear-gradient(45deg, #06aca1, #838479, #4f0ba9);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -34,11 +34,10 @@ button {
     left: 10px;
 }
 
-.button-container {
-    display: flex;
-}
-
-.button-container button {
-    flex: 1;
-    margin: 0 10px;
+#resultMessage {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #de6f6f;
+    color: #fff;
+    border-radius: 10px;
 }

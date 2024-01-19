@@ -3,7 +3,9 @@ body {
    -size: 14px;
     line-height: 1.5;
     color: #333;
-    background-color: #70aee4;
+
+    background: linear-gradient(45deg, #06aca1, #838479, #4f0ba9);
+
     padding: 20px;
 }
 

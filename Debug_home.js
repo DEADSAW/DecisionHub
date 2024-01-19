@@ -28,8 +28,10 @@ function customd() {
     window.location.href = 'Debug_1.2.html'; // Adjust the redirection URL as needed
     console.log("Navigating to 1_3_create page");
 }
+
 function checkModel() {
     // Redirect to the Flask app page and check the ML model
     window.location.href = 'http://127.0.0.1:5000/'; // Adjust the redirection URL as needed
     console.log("Navigating to check_model page")
 }
+
