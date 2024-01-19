@@ -1,0 +1,71 @@
+body {
+    font-family:rial, sans-if;
+   -size: 14px;
+    line-height: 1.5;
+    color: #333;
+    background: linear-gradient(45deg, #06aca1, #838479, #4f0ba9);
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+#rule-block {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.attribute,
+.condition {
+    margin-bottom: 10px;
+}
+
+.attribute select,
+.condition select,
+.condition input[type="text"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+    box-sizing: border-box;
+}
+
+.attribute button,
+.condition button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    line-height: 1.5;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.condition select {
+    width: 100px;
+}
+
+.condition input[type="text"] {
+    width: calc(100% - 110px);
+    margin-left: 10px;
+}
+
+.condition button {
+    margin-left: 10px;
+}
+
+.nested-condition {
+    margin-left: 20px;
+    margin-top: 5px;
+}

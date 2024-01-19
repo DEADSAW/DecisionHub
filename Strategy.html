@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Strategy.css">
+    <title>Build Your Strategies</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Build Your Strategies</h1>
+        </header>
+
+        <details>
+            <summary>Select Loan Approval / Eligibility Checker</summary>
+            <ul>
+                <li>
+                    <p>Choose one option:</p>
+                    <label for="option1">
+                        <input type="radio" name="loanOption" id="option1"> Loan Approval
+                    </label>
+                    <label for="option2">
+                        <input type="radio" name="loanOption" id="option2"> Eligibility Checker
+                    </label>
+                </li>
+            </ul>
+        </details>
+
+        <details>
+            <summary>Set Strategy Name</summary>
+            <input type="text" id="strategyName" placeholder="Enter strategy name">
+        </details>
+
+        <details>
+            <summary>Add Segmentation</summary>
+            <!-- Add segmentation content here -->
+        </details>
+
+        <details>
+            <summary>Add Rules</summary>
+            <div class="rule-container">
+                <label>Select rule/s:</label>
+                <div class="rule-dropdown">
+                    <select class="ruleSelect">
+                        <option value="rule_1">rule_1</option>
+                        <option value="rule_2">rule_2</option>
+                        <option value="rule_2">rule_3</option>
+                        <option value="rule_2">rule_4</option>
+                        <!-- Add more options as needed -->
+                    </select>
+                    <button class="addRuleButton" onclick="addRuleDropdown()">+</button>
+                </div>
+            </div>
+        </details>
+
+        <details>
+            <summary>Show existing strategies</summary>
+            <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+            </ul>
+        </details>
+        
+        <button id="backButton">Back</button>
+    </div>
+
+    <script src="Strategy.js"></script>
+</body>
+</html>
