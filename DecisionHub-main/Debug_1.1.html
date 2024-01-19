@@ -1,3 +1,5 @@
+<!-- Debug_1.1.html -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,15 +13,6 @@
 <div class="container">
     <button id="backButton" onclick="goBack()">Back</button>
     <h1>Enter input:</h1>
-
-    <!-- Dropdown for selecting existing strategy -->
-    
-
-    <!-- Input box for entering title -->
-    <div class="input-container">
-        
-        
-    </div>
 
     <!-- Input boxes for age, annual income, term, credit, and loan amount -->
     <div class="input-container">
@@ -52,5 +45,18 @@
 </div>
 
 <script src="Debug_1.1.js"></script>
+<script>
+    // Include the goBack and debug functions from Debug_1.1.js directly in the HTML
+    function goBack() {
+        // You can implement redirection logic to navigate back to the previous page
+        console.log("Back to Debug_1.1 page");
+        window.location.href = 'Debug_1.1.html'; // Adjust the redirection URL as needed
+    }
+
+    function debug() {
+        // Redirect to Debug_1.3.html when the Debug button is clicked
+        window.location.href = 'Debug_1.3.html'; // Adjust the redirection URL as needed
+    }
+</script>
 </body>
 </html>
