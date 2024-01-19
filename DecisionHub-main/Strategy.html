@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Strategy.css">
     <title>Build Your Strategies</title>
 </head>
+
 <body>
     <div class="container">
         <header>
@@ -62,11 +64,17 @@
                 <li>5</li>
             </ul>
         </details>
-        
-        <button id="backButton">Back</button>
-<button id="create strategy button">Create strategy</button>
+
+        <button id="backButton" onclick="goBack()">Back</button>
+        <button id="createStrategyButton">Create strategy</button>
     </div>
 
     <script src="Strategy.js"></script>
+    <script>
+        function goBack() {
+            window.location.href = 'Landing_page.html';
+        }
+    </script>
 </body>
+
 </html>
