@@ -1,0 +1,132 @@
+/* Basic styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    color: #0496eb; /* Match general text color */
+    font-weight:bold;
+}
+
+body {
+    background: linear-gradient(to right, #008080, #00bfa5); /* Match background */
+}
+
+/* Header */
+header {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Main content */
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+section {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Rule editor */
+#rule-editor {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 800px; /* Match width */
+    margin: 40px auto; /* Center the form */
+}
+
+#attribute-list {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+#attribute-input-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#attribute-dropdown {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    color: #000; /* Ensure dropdown text visibility */
+    background-color: #333333; /* Enhance contrast for dropdown text */
+}
+
+#rule-block {
+    flex-grow: 1;
+    border-bottom: 1px solid #3b3b3b;
+    padding-bottom: 10px;
+}
+
+.condition {
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+
+#create-rule {
+    background-color: #008080; /* Use a darker background for better contrast */
+    color: #fff; /* Use white for button text */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    max-width: 150px;
+}
+
+#create-rule:hover {
+    background-color: #333333; /* Retain darker color on hover */
+}
+
+/* Rule list */
+#rule-list {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    list-style: none;
+    padding: 0;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+#rule-list-items {
+    padding: 10px;
+}
+#add-attribute{
+    background-color: #008080; /* Use a darker background for better contrast */
+    color: #fff; /* Use white for button text */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    max-width: 150px;
+}
+/* Additional styles */
+.error {
+    color: red;
+}
+  
