@@ -8,6 +8,12 @@ DecisionHub is a powerful tool designed to assist analysts in making informed de
 ### Efficient Decision-Making:   DecisionHub is designed to save time for analysts by providing a centralized hub for evaluating potential clients based on predefined parameters.
 
 ### AI-powered Loan Prediction:  Our machine learning model (work in progress) analyzes your loan factors and predicts approval chances.
+![DecisionHub ML Loan Prediction](https://github.com/DEADSAW/DecisionHub/blob/main/ml_loan)
+
+![DecisionHub ML Loan Prediction](https://github.com/DEADSAW/DecisionHub/blob/main/mlpredict)
+
+
+
 
 
 ### Rejection Insights: Get clear reasons for declined applications and areas for improvement to boost future success.
@@ -65,7 +71,9 @@ Proceed with Usage:
 
 Log in :
 Access the Loan Analysis Tool:
-https://github.com/DEADSAW/DecisionHub/blob/main/Screenshot%202024-01-19%20143008.png
+
+![DecisionHub Analytic Tool](https://github.com/DEADSAW/DecisionHub/blob/main/Screenshot%202024-01-19%20143903.png)
+
 Input Loan Attributes:
 Select Factors for Comparison:
 Initiate Analysis:
